@@ -81,8 +81,18 @@ const progressRoutes = require('./routes/progressRoutes');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Middleware
-app.use(cors());
+// Middleware: Configured CORS to allow frontend connections
+const corsOptions = {
+  origin: [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'http://192.168.56.1:3000',
+    'https://smart-exam-prep-assistant.vercel.app' // <-- Change this if your actual Vercel link is different!
+  ],
+  credentials: true,
+};
+app.use(cors(corsOptions));
+
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 
