@@ -51,7 +51,76 @@ const resourcesToAdd = [
     description: "Interactive animations for data structures and algorithms.",
     tags: ["algorithms", "visual", "cs"],
     rating: 4.9
-  }
+  },
+  {
+    title: "Complete Python Course for Beginners",
+    subject: "Computer Science",
+    topic: "Programming",
+    type: "video",
+    url: "https://www.youtube.com/watch?v=rfscVS0vtbw",
+    difficulty: "beginner",
+    description: "A full 4-hour course on Python basics covering variables, loops, and functions.",
+    tags: ["python", "coding", "basics"],
+    rating: 4.8,
+    duration: "4 hours"
+  },
+  {
+    title: "Java Programming & OOPS Concepts",
+    subject: "Computer Science",
+    topic: "Java",
+    type: "video",
+    url: "https://www.youtube.com/watch?v=bm0OyhwHEBA",
+    difficulty: "intermediate",
+    description: "Deep dive into Object-Oriented Programming using Java: Classes, Inheritance, and Polymorphism.",
+    tags: ["java", "oops", "backend"],
+    rating: 4.9,
+    duration: "2 hours"
+  },
+  {
+    title: "Operating Systems: Process Management",
+    subject: "Computer Science",
+    topic: "Operating Systems",
+    type: "article",
+    url: "https://www.geeksforgeeks.org/introduction-of-process-management/",
+    difficulty: "intermediate",
+    description: "Comprehensive guide to CPU scheduling, process states, and context switching.",
+    tags: ["os", "processes", "scheduling"],
+    rating: 4.6
+  },
+  {
+    title: "Deep Learning Specialization - Neural Networks",
+    subject: "Artificial Intelligence",
+    topic: "Deep Learning",
+    type: "website",
+    url: "https://www.coursera.org/specializations/deep-learning",
+    difficulty: "advanced",
+    description: "Master the foundations of Deep Learning and understand how neural networks work.",
+    tags: ["dl", "ai", "neural-networks"],
+    rating: 4.9
+  },
+  {
+    title: "Engineering Mathematics Handbook",
+    subject: "Mathematics",
+    topic: "Calculus",
+    type: "pdf",
+    url: "https://tutorial.math.lamar.edu/pdf/Calculus_I_Complete.pdf",
+    difficulty: "advanced",
+    description: "Comprehensive formulas and practice problems for engineering mathematics.",
+    tags: ["math", "formulas", "engineering"],
+    rating: 4.5
+  },
+  {
+    title: "Data Structures Visualization",
+    subject: "Computer Science",
+    topic: "Algorithms",
+    type: "website",
+    url: "https://visualgo.net/en",
+    difficulty: "intermediate",
+    description: "Interactive animations for data structures and algorithms.",
+    tags: ["algorithms", "visual", "cs"],
+    rating: 4.9
+  },
+  
 ];
 
 const seedDB = async () => {
