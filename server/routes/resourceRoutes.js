@@ -120,3 +120,4 @@ exports.deleteResource = async (req, res) => {
     res.status(500).json({ message: 'Server Error deleting resource' });
   }
 };
+module.exports = router;
